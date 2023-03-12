@@ -3,5 +3,5 @@ export interface Item {
     title: string,
     description: string,
     price: number
-    // TODO: add userId and picture field
+    // TODO: add userId and picture field!!!
 }
