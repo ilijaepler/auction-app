@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  title: string = "Add/Delete item"
+  title: string = "AuctionApp"
+
+  toggleAddItem(): void {
+    console.log("[HEADER] Button was clicked!");
+  }
 
 }
